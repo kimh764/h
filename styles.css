@@ -13,8 +13,14 @@ body {
     color: beige; 
     font-family:'Courier New', Courier, monospace;
 
+
 }
 
 canvas {
     border: 2px solid navajowhite;
 }
+
+a {
+    text-decoration: none; /* line remove*/
+    color: beige;
+  }
