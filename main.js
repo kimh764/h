@@ -24,7 +24,7 @@ img1.src = 'cactus.png';
 
 class Cactus {
     constructor(){
-        this.x = 700;
+        this.x = 360;
         this.y = 200;
         this.width = 50;
         this.height = 50;
@@ -116,7 +116,7 @@ resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
 
 function resizeCanvas() {
-    canvas.width = window.innerWidth * 0.5; 
+    canvas.width = window.innerWidth * 0.5 ; 
     canvas.height = window.innerHeight * 0.5; 
 
 }
